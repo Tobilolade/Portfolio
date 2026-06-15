@@ -190,7 +190,6 @@ export function initPrescription() {
           </div>
 
           <div class="rx-output-empty" id="rx-empty">
-            <div class="rx-output-empty-icon">✎</div>
             <p>Your refined design brief will<br/>appear here after analysis.</p>
           </div>
 

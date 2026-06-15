@@ -298,7 +298,7 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: -0.04em;
   color: var(--white);
   line-height: 1.05;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
   max-width: 14ch;
   animation: fadeSlideUp 0.8s var(--ease-out) 0.4s both;
 }
@@ -378,7 +378,7 @@ a { color: inherit; text-decoration: none; }
   color: var(--gray-500);
   line-height: 1.7;
   max-width: 48ch;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
   animation: fadeSlideUp 0.8s var(--ease-out) 0.6s both;
 }
 
@@ -1564,7 +1564,7 @@ a { color: inherit; text-decoration: none; }
   .project-info { padding: 1.25rem; }
   .project-title { font-size: 1.05rem; }
   .project-desc { font-size: 0.85rem; }
-  #skills { padding: 2.5rem clamp(1.25rem, 5vw, 2rem); }
+  #skills { padding: 2rem clamp(1.25rem, 5vw, 2rem); }
   #about, #work, #rx-tool, #contact, #hero { padding-left: clamp(1.25rem, 5vw, 2rem); padding-right: clamp(1.25rem, 5vw, 2rem); }
   .work-header { flex-direction: column; align-items: flex-start; gap: 1rem; margin-bottom: 2.5rem; }
   .contact-title { font-size: clamp(2rem, 7vw, 2.8rem); }
