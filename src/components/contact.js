@@ -34,7 +34,7 @@ export function initContact() {
       </div>
 
       <p class="footer-copy reveal reveal-delay-4">
-        © ${new Date().getFullYear()} Tobilola Adebayo. Designed with intention. Built with Vite.
+        © ${new Date().getFullYear()} Tobilola Adebayo. Designed with intention. Built with Vite. ✦
       </p>
     </div>
   `;
