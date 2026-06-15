@@ -1530,6 +1530,7 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 640px) {
   .nav-links, .nav-cta { display: none; }
   .nav-hamburger { display: flex; }
+  #hero { padding-top: calc(var(--nav-h) + 0.5rem); min-height: 92vh; justify-content: flex-start; }
   .projects-grid { grid-template-columns: 1fr; }
   .stats-row { gap: 2rem; flex-wrap: wrap; }
   .hero-actions { flex-direction: column; align-items: center; width: 100%; }
