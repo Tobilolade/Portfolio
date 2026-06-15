@@ -1,0 +1,14 @@
+<svg viewBox="0 0 120 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black frame / mounting bracket -->
+  <rect x="2" y="2" width="116" height="156" rx="28" stroke="currentColor" stroke-width="4"/>
+  <!-- Teal oval -->
+  <ellipse cx="60" cy="78" rx="44" ry="54" fill="#0D9488"/>
+  <!-- Cream interlocking B+P monogram -->
+  <path d="M42 54C42 50 46 46 52 46H62C70 46 76 52 76 60C76 68 70 74 62 74H52C46 74 42 70 42 66V54Z" fill="#F5F0E8" opacity="0.95"/>
+  <path d="M52 74H62C70 74 76 80 76 88C76 96 70 102 62 102H52C46 102 42 98 42 94V74Z" fill="#F5F0E8" opacity="0.95"/>
+  <!-- Overlapping P curve -->
+  <path d="M68 60C72 60 76 64 76 68C76 72 72 76 68 76" stroke="#0D9488" stroke-width="2.5" fill="none"/>
+  <!-- Inner cutout detail for B -->
+  <path d="M52 52H58C63 52 66 55 66 60C66 65 63 68 58 68H52V52Z" fill="#0D9488" opacity="0.3"/>
+  <path d="M52 78H58C63 78 66 81 66 86C66 91 63 94 58 94H52V78Z" fill="#0D9488" opacity="0.3"/>
+</svg>
