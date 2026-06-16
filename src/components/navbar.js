@@ -47,7 +47,7 @@ export function initNavbar() {
   }, { passive: true });
 
   // Active section highlight
-  const sections = ['hero', 'about', 'work', 'rx-tool', 'contact'];
+  const sections = ['hero', 'about', 'skills', 'work', 'rx-tool', 'contact'];
   const navMap = { 'about': 'nav-about', 'skills': 'nav-skills', 'work': 'nav-work', 'rx-tool': 'nav-rx', 'contact': 'nav-contact' };
 
   const observer = new IntersectionObserver((entries) => {
