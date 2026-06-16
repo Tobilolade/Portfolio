@@ -1531,8 +1531,8 @@ a { color: inherit; text-decoration: none; }
   .nav-links, .nav-cta { display: none; }
   .nav-hamburger { display: flex; }
   #hero { min-height: auto; padding-top: calc(var(--nav-h) + 0.5rem); padding-bottom: 0; justify-content: flex-start; }
-  #about { padding-top: 2rem; }
-  .hero-scroll-indicator { margin-top: 0.5rem; }
+  #about { padding-top: 4rem; }
+  .hero-scroll-indicator { margin-top: 1rem; padding-bottom: 1rem; }
   .projects-grid { grid-template-columns: 1fr; }
   .stats-row { gap: 2rem; flex-wrap: wrap; }
   .hero-actions { flex-direction: column; align-items: center; width: 100%; }
