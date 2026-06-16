@@ -68,6 +68,7 @@ export function initNavbar() {
   // Hamburger toggle
   const hamburger = document.getElementById('hamburger');
   const mobileMenu = document.getElementById('mobile-menu');
+  mobileMenu.style.background = '#0a0a0a';
 
   hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('open');
