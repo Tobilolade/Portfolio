@@ -68,18 +68,29 @@ export function initNavbar() {
   // Hamburger toggle
   const hamburger = document.getElementById('hamburger');
   const mobileMenu = document.getElementById('mobile-menu');
-  mobileMenu.style.background = '#0a0a0a';
+
+  function openMenu() {
+    hamburger.classList.add('open');
+    mobileMenu.style.display = 'flex';
+  }
+
+  function closeMenu() {
+    hamburger.classList.remove('open');
+    mobileMenu.style.display = 'none';
+  }
+
+  mobileMenu.style.display = 'none';
 
   hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('open');
-    mobileMenu.classList.toggle('open');
+    if (mobileMenu.style.display === 'flex') {
+      closeMenu();
+    } else {
+      openMenu();
+    }
   });
 
   mobileMenu.querySelectorAll('.mobile-link').forEach(link => {
-    link.addEventListener('click', () => {
-      hamburger.classList.remove('open');
-      mobileMenu.classList.remove('open');
-    });
+    link.addEventListener('click', closeMenu);
   });
 
   // Theme toggle
