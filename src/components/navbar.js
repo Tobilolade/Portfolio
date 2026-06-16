@@ -27,14 +27,20 @@ export function initNavbar() {
     <button class="nav-hamburger" id="hamburger" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
-    <div class="nav-mobile-menu" id="mobile-menu">
-      <a href="#about" class="mobile-link">About</a>
-      <a href="#skills" class="mobile-link">Skills</a>
-      <a href="#work" class="mobile-link">Work</a>
-      <a href="#rx-tool" class="mobile-link">Design Tool</a>
-      <a href="#contact" class="mobile-link">Contact</a>
-    </div>
   `;
+
+  // Create mobile menu as a separate sibling element (not inside navbar)
+  const menuDiv = document.createElement('div');
+  menuDiv.className = 'nav-mobile-menu';
+  menuDiv.id = 'mobile-menu';
+  menuDiv.innerHTML = `
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#skills" class="mobile-link">Skills</a>
+    <a href="#work" class="mobile-link">Work</a>
+    <a href="#rx-tool" class="mobile-link">Design Tool</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  `;
+  document.body.insertBefore(menuDiv, document.body.firstChild);
 
   // Scroll effects
   window.addEventListener('scroll', () => {
